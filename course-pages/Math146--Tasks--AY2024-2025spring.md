@@ -7,20 +7,20 @@ title: Math146 - Abstract Algebra II (Galois Theory) - AY2024-2025 spring
 
   | Date  | DOW | Desc       | Seq | Week | Details                                                        |
   |-------|-----|------------|-----|------|----------------------------------------------------------------|
-  | 01/17 | Fri | Assignment |     | 1    |                                                                |
+  | 01/17 | Fri | Assignment |     | 1    | PS01                                                           |
   | 01/20 | Mon | Tufts      |     | 2    | **No classes:** *MLK Day*                                      |
   | 01/22 | Wed | Tufts      |     | 2    | **Academic Date:** *Last day to add a course*                  |
-  | 01/24 | Fri | Assignment |     | 2    |                                                                |
-  | 01/31 | Fri | Assignment |     | 3    |                                                                |
-  | 02/07 | Fri | Assignment |     | 4    |                                                                |
-  | 02/14 | Fri | Assignment |     | 5    |                                                                |
+  | 01/24 | Fri | Assignment |     | 2    | PS02                                                           |
+  | 01/31 | Fri | Assignment |     | 3    | PS03                                                           |
+  | 02/07 | Fri | Assignment |     | 4    | PS04                                                           |
+  | 02/14 | Fri | Assignment |     | 5    | PS05                                                           |
   | 02/17 | Mon | Tufts      |     | 6    | **No classes:** *Presidents' Day*                              |
   | 02/19 | Wed | Tufts      |     | 6    | **Academic Date:** *Last day to drop a course without record*  |
   | 02/20 | Thu | Tufts      |     | 6    | **Tufts:** *Monday schedule*                                   |
-  | 02/21 | Fri | Assignment |     | 6    |                                                                |
-  | 02/28 | Fri | Assignment |     | 7    |                                                                |
-  | 03/07 | Fri | Assignment |     | 8    |                                                                |
-  | 03/14 | Fri | Assignment |     | 9    |                                                                |
+  | 02/21 | Fri | Assignment |     | 6    | PS06                                                           |
+  | 02/28 | Fri | Assignment |     | 7    | PS07                                                           |
+  | 03/07 | Fri | Assignment |     | 8    | PS08                                                           |
+  | 03/14 | Fri | Assignment |     | 9    | PS09                                                           |
   | 03/15 | Sat | Tufts      |     | 9    | **No classes:** *Spring Break*                                 |
   | 03/16 | Sun | Tufts      |     | 9    | **No classes:** *Spring Break*                                 |
   | 03/17 | Mon | Tufts      |     | 10   | **No classes:** *Spring Break*                                 |
@@ -34,7 +34,6 @@ title: Math146 - Abstract Algebra II (Galois Theory) - AY2024-2025 spring
   | 03/28 | Fri | Assignment |     | 11   |                                                                |
   | 04/02 | Wed | Tufts      |     | 12   | **Academic Date:** *Last day to withdraw from a course with W* |
   | 04/02 | Wed | Tufts      |     | 12   | **Academic Date:** *Last day to select Pass/Fail Option*       |
-  | 04/03 | Thu | Assignment |     | 12   | Final project proposals due                                    |
   | 04/04 | Fri | Assignment |     | 12   |                                                                |
   | 04/11 | Fri | Assignment |     | 13   |                                                                |
   | 04/18 | Fri | Assignment |     | 14   |                                                                |
@@ -45,7 +44,6 @@ title: Math146 - Abstract Algebra II (Galois Theory) - AY2024-2025 spring
   | 04/30 | Wed | Tufts      |     | 16   | **Academic Date:** *Reading Period*                            |
   | 05/01 | Thu | Tufts      |     | 16   | **Academic Date:** *Reading Period*                            |
   | 05/02 | Fri | Tufts      |     | 16   | **Academic Date:** *Final Exam Period*                         |
-  | 05/03 | Sat | Assignment |     | 16   | Final Project Due                                              |
   | 05/03 | Sat | Tufts      |     | 16   | **Academic Date:** *Final Exam Period*                         |
   | 05/04 | Sun | Tufts      |     | 16   | **Academic Date:** *Final Exam Period*                         |
   | 05/05 | Mon | Tufts      |     | 17   | **Academic Date:** *Final Exam Period*                         |

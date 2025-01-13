@@ -1,4 +1,4 @@
--- Time-stamp: <2025-01-02 Thu 09:48 EST - george@valhalla>
+-- Time-stamp: <2025-01-02 Thu 17:24 EST - george@valhalla>
 let Dow = < Mon | Tue | Wed | Thu | Fri | Sat | Sun >
 
 let concat = https://prelude.dhall-lang.org/List/concat
@@ -88,15 +88,17 @@ let lectures =
         , description = "course lecture"
         }
 
-let FinalProject =
-      CourseComponent.Assignment
-        { description = "Final Project Due"
-        , sched =
-          [ ScheduleDetails.DateDue { date = "2025-04-03", deadline = "23:59" }
-          , ScheduleDetails.DateDue { date = "2025-05-03", deadline = "23:59" }
-          ]
-        , assignments = [ "Final project proposals due", "Final Project Due" ]
-        }
+let midterm1 =
+      CourseComponent.Exam
+        { sched = [] : List ScheduleDetails, description = "" }
+
+let midterm2 =
+      CourseComponent.Exam
+        { sched = [] : List ScheduleDetails, description = "" }
+
+let final =
+      CourseComponent.Exam
+        { sched = [] : List ScheduleDetails, description = "" }
 
 in  [ { courseAY = "AY2024-2025"
       , courseSem = "spring"
@@ -111,7 +113,7 @@ in  [ { courseAY = "AY2024-2025"
       , courseComponents =
           concat
             CourseComponent
-            (   [ [ lectures ], [ homework ], [ FinalProject ] ]
+            (   [ [ lectures ], [ homework ], [ midterm1, midterm2, final ] ]
               : List (List CourseComponent)
             )
       , courseTasks = tasks : List Task

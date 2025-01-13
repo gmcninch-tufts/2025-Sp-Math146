@@ -2,8 +2,10 @@
 author: George McNinch
 title: |
   Resources: Expectations and Rubrics
-date: 2024-01-01
+date: 2025-01-02
 ---
+
+*This is still in draft form...*
 
 # Student Engagement {#engagement}
 
@@ -17,9 +19,8 @@ date: 2024-01-01
 
   You may work together with classmates while solving the *problem
   sets* -- you are free to share mathematical and computational ideas
-  with other students in the course. However, *any work you submit
-  must be written by yourself* -- do not directly copy anyone else's
-  work!
+  with other students in the course. However, *you must write any
+  work you submit* -- do not directly copy anyone else's work!
 
   Your solutions/submissions will be marked to reflect the following
   criteria:

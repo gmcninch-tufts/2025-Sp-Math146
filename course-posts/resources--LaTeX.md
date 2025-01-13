@@ -2,7 +2,7 @@
 author: George McNinch
 title: |
  Resources: LaTeX
-date: 2024-01-01
+date: 2025-01-02
 ---
 
 # LaTeX
