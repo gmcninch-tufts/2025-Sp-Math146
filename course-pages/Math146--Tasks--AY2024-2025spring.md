@@ -15,6 +15,7 @@ title: Math146 - Abstract Algebra II (Galois Theory) - AY2024-2025 spring
   | 02/07 | Fri | Assignment |     | 4    | PS04                                                           |
   | 02/14 | Fri | Assignment |     | 5    | PS05                                                           |
   | 02/17 | Mon | Tufts      |     | 6    | **No classes:** *Presidents' Day*                              |
+  | 02/19 | Wed | Exam       |     | 6    | **midterm 1**                                                  |
   | 02/19 | Wed | Tufts      |     | 6    | **Academic Date:** *Last day to drop a course without record*  |
   | 02/20 | Thu | Tufts      |     | 6    | **Tufts:** *Monday schedule*                                   |
   | 02/21 | Fri | Assignment |     | 6    | PS06                                                           |
@@ -32,6 +33,7 @@ title: Math146 - Abstract Algebra II (Galois Theory) - AY2024-2025 spring
   | 03/22 | Sat | Tufts      |     | 10   | **No classes:** *Spring Break*                                 |
   | 03/23 | Sun | Tufts      |     | 10   | **No classes:** *Spring Break*                                 |
   | 03/28 | Fri | Assignment |     | 11   |                                                                |
+  | 03/31 | Mon | Exam       |     | 12   | **midterm 2**                                                  |
   | 04/02 | Wed | Tufts      |     | 12   | **Academic Date:** *Last day to withdraw from a course with W* |
   | 04/02 | Wed | Tufts      |     | 12   | **Academic Date:** *Last day to select Pass/Fail Option*       |
   | 04/04 | Fri | Assignment |     | 12   |                                                                |
@@ -50,4 +52,5 @@ title: Math146 - Abstract Algebra II (Galois Theory) - AY2024-2025 spring
   | 05/06 | Tue | Tufts      |     | 17   | **Academic Date:** *Final Exam Period*                         |
   | 05/07 | Wed | Tufts      |     | 17   | **Academic Date:** *Final Exam Period*                         |
   | 05/08 | Thu | Tufts      |     | 17   | **Academic Date:** *Final Exam Period*                         |
+  | 05/09 | Fri | Exam       |     | 17   | **final exam**                                                 |
   | 05/09 | Fri | Tufts      |     | 17   | **Academic Date:** *Final Exam Period*                         |

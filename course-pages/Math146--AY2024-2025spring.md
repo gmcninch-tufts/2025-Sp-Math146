@@ -20,24 +20,25 @@ title: Math146 - Abstract Algebra II (Galois Theory) - AY2024-2025 spring
   | 01/27 | Mon | Meeting    | Office hours 0  | 3    | **13:30-14:30 JCC 559                                          |
   | 01/27 | Mon | Lecture    | 3               | 3    | Euclidean algorithm                                            |
   | 01/29 | Wed | Meeting    | Office hours 2  | 3    | **13:30-14:30 JCC 559                                          |
-  | 01/29 | Wed | Lecture    | 4               | 3    | Fields of Fractions                                            |
+  | 01/29 | Wed | Lecture    | 4               | 3    | Fields of Fractions & Quotient Rings                           |
   | 01/30 | Thu | Meeting    | Office hours 2  | 3    | **14:30-15:30 JCC 559                                          |
   | 01/31 | Fri | Assignment |                 | 3    | PS03                                                           |
   | 02/03 | Mon | Meeting    | Office hours 1  | 4    | **13:30-14:30 JCC 559                                          |
-  | 02/03 | Mon | Lecture    | 5               | 4    | Quotient Rings                                                 |
+  | 02/03 | Mon | Lecture    | 5               | 4    | Gauss Lemma                                                    |
   | 02/05 | Wed | Meeting    | Office hours 3  | 4    | **13:30-14:30 JCC 559                                          |
-  | 02/05 | Wed | Lecture    | 6               | 4    | Gauss Lemma                                                    |
+  | 02/05 | Wed | Lecture    | 6               | 4    | Eisenstein's Criterion                                         |
   | 02/06 | Thu | Meeting    | Office hours 3  | 4    | **14:30-15:30 JCC 559                                          |
   | 02/07 | Fri | Assignment |                 | 4    | PS04                                                           |
   | 02/10 | Mon | Meeting    | Office hours 2  | 5    | **13:30-14:30 JCC 559                                          |
-  | 02/10 | Mon | Lecture    | 7               | 5    | Eisenstein's Criterion                                         |
+  | 02/10 | Mon | Lecture    | 7               | 5    | Fields and field extensions; linear algebra                    |
   | 02/12 | Wed | Meeting    | Office hours 4  | 5    | **13:30-14:30 JCC 559                                          |
-  | 02/12 | Wed | Lecture    | 8               | 5    | Fields and field extensions; linear algebra                    |
+  | 02/12 | Wed | Lecture    | 8               | 5    | Simple extensions                                              |
   | 02/13 | Thu | Meeting    | Office hours 4  | 5    | **14:30-15:30 JCC 559                                          |
   | 02/14 | Fri | Assignment |                 | 5    | PS05                                                           |
   | 02/17 | Mon | Tufts      |                 | 6    | **No classes:** *Presidents' Day*                              |
   | 02/19 | Wed | Meeting    | Office hours 5  | 6    | **13:30-14:30 JCC 559                                          |
-  | 02/19 | Wed | Lecture    | 9               | 6    | Simple extensions                                              |
+  | 02/19 | Wed | Lecture    | 9               | 6    | midterm 1                                                      |
+  | 02/19 | Wed | Exam       |                 | 6    | **midterm 1**                                                  |
   | 02/19 | Wed | Tufts      |                 | 6    | **Academic Date:** *Last day to drop a course without record*  |
   | 02/20 | Thu | Meeting    | Office hours 5  | 6    | **14:30-15:30 JCC 559                                          |
   | 02/20 | Thu | Lecture    | 10              | 6    | Degree of extensions and the Tower Law                         |
@@ -78,32 +79,33 @@ title: Math146 - Abstract Algebra II (Galois Theory) - AY2024-2025 spring
   | 03/27 | Thu | Meeting    | Office hours 9  | 11   | **14:30-15:30 JCC 559                                          |
   | 03/28 | Fri | Assignment |                 | 11   |                                                                |
   | 03/31 | Mon | Meeting    | Office hours 7  | 12   | **13:30-14:30 JCC 559                                          |
-  | 03/31 | Mon | Lecture    | 19              | 12   | Linear independence of monomorphisms                           |
+  | 03/31 | Mon | Lecture    | 19              | 12   | midterm 2                                                      |
+  | 03/31 | Mon | Exam       |                 | 12   | **midterm 2**                                                  |
   | 04/02 | Wed | Meeting    | Office hours 10 | 12   | **13:30-14:30 JCC 559                                          |
-  | 04/02 | Wed | Lecture    | 20              | 12   | Some results on automorphisms                                  |
+  | 04/02 | Wed | Lecture    | 20              | 12   | Linear independence of monomorphisms                           |
   | 04/02 | Wed | Tufts      |                 | 12   | **Academic Date:** *Last day to withdraw from a course with W* |
   | 04/02 | Wed | Tufts      |                 | 12   | **Academic Date:** *Last day to select Pass/Fail Option*       |
   | 04/03 | Thu | Meeting    | Office hours 10 | 12   | **14:30-15:30 JCC 559                                          |
   | 04/04 | Fri | Assignment |                 | 12   |                                                                |
   | 04/07 | Mon | Meeting    | Office hours 8  | 13   | **13:30-14:30 JCC 559                                          |
-  | 04/07 | Mon | Lecture    | 21              | 13   | The fundamental Theorem of Galois Theory                       |
+  | 04/07 | Mon | Lecture    | 21              | 13   | Some results on automorphisms                                  |
   | 04/09 | Wed | Meeting    | Office hours 11 | 13   | **13:30-14:30 JCC 559                                          |
-  | 04/09 | Wed | Lecture    | 22              | 13   | Examples of Galois Groups                                      |
+  | 04/09 | Wed | Lecture    | 22              | 13   | The fundamental Theorem of Galois Theory                       |
   | 04/10 | Thu | Meeting    | Office hours 11 | 13   | **14:30-15:30 JCC 559                                          |
   | 04/11 | Fri | Assignment |                 | 13   |                                                                |
   | 04/14 | Mon | Meeting    | Office hours 9  | 14   | **13:30-14:30 JCC 559                                          |
-  | 04/14 | Mon | Lecture    | 23              | 14   | Finite Fields                                                  |
+  | 04/14 | Mon | Lecture    | 23              | 14   | Examples of Galois Groups                                      |
   | 04/16 | Wed | Meeting    | Office hours 12 | 14   | **13:30-14:30 JCC 559                                          |
-  | 04/16 | Wed | Lecture    | 24              | 14   | Transcendence degree; symmetric polynomials                    |
+  | 04/16 | Wed | Lecture    | 24              | 14   | Finite Fields                                                  |
   | 04/17 | Thu | Meeting    | Office hours 12 | 14   | **14:30-15:30 JCC 559                                          |
   | 04/18 | Fri | Assignment |                 | 14   |                                                                |
   | 04/21 | Mon | Tufts      |                 | 15   | **No classes:** *Patriots' Day*                                |
   | 04/23 | Wed | Meeting    | Office hours 13 | 15   | **13:30-14:30 JCC 559                                          |
-  | 04/23 | Wed | Lecture    | 25              | 15   | Solutions by radicals                                          |
+  | 04/23 | Wed | Lecture    | 25              | 15   | Transcendence degree; symmetric polynomials                    |
   | 04/24 | Thu | Meeting    | Office hours 13 | 15   | **14:30-15:30 JCC 559                                          |
   | 04/25 | Fri | Assignment |                 | 15   |                                                                |
   | 04/28 | Mon | Meeting    | Office hours 10 | 16   | **13:30-14:30 JCC 559                                          |
-  | 04/28 | Mon | Lecture    | 26              | 16   | Cyclic extensions                                              |
+  | 04/28 | Mon | Lecture    | 26              | 16   | Solutions by radicals                                          |
   | 04/29 | Tue | Tufts      |                 | 16   | **No classes:** *Makeup Day (no classes)*                      |
   | 04/29 | Tue | Tufts      |                 | 16   | **Academic Date:** *Reading Period*                            |
   | 04/30 | Wed | Tufts      |                 | 16   | **Academic Date:** *Reading Period*                            |
@@ -115,4 +117,5 @@ title: Math146 - Abstract Algebra II (Galois Theory) - AY2024-2025 spring
   | 05/06 | Tue | Tufts      |                 | 17   | **Academic Date:** *Final Exam Period*                         |
   | 05/07 | Wed | Tufts      |                 | 17   | **Academic Date:** *Final Exam Period*                         |
   | 05/08 | Thu | Tufts      |                 | 17   | **Academic Date:** *Final Exam Period*                         |
+  | 05/09 | Fri | Exam       |                 | 17   | **final exam**                                                 |
   | 05/09 | Fri | Tufts      |                 | 17   | **Academic Date:** *Final Exam Period*                         |

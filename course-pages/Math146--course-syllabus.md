@@ -1,12 +1,12 @@
 ---
-title: Course Syllabus
+title: Math 146 Spring 2025 Syllabus
 author: George McNinch
 date: 2024-01-07
-abstract: Course Syllabus 
 ---
 
+# Math 146  Spring 2025 Tufts University
 
-# Schedule & Format
+## Schedule & Format
 
 - **Professor: **[George McNinch](http://gmcninch.math.tufts.edu)
   <<george.mcninch@tufts.edu>>
@@ -26,7 +26,7 @@ abstract: Course Syllabus
   click to find online access to this text.
   
 
-# Course Grading & Expectations   {#grading-and-expect}
+## Course Grading & Expectations   {#grading-and-expect}
 
 
 *You should keep up with the posted material throughout the  course!!*
@@ -41,25 +41,24 @@ Here are details on these course components:
 
   Since the class meets on Mondays and Wednesdays, problem sets will
   be collected weekly on *Fridays* (some weeks, a midterm report --
-  see below -- will instead by collected on Friday). [Here is the
-  planned collection
-  schedule](/course-pages/Math087--Assignments--AY2023-2024spring.html).
+  see below -- will instead by collected on Friday). You can find the
+  planned collection schedule on the course website.
 
   A total of 10 problem sets will be collected.
 
   The problems will be posted on the course website, and your
-  solutions will be submitted to [Gradescope] -- see [these remarks
+  solutions will be submitted to [Gradescope](https://www.gradescope.com/) -- see [these remarks
   concerning use of
   gradescope](/course-posts/resources--gradescope.html).
+
 
 
 - 2 take-home *midterms*
 
 - 1 take-home *final exam*
 
-Please refer to the [rubric and
-expectation](/course-posts/resources--expectations-and-rubrics.html) for further
-remarks concerning these course components.
+Please refer to the course website for details on expectations
+concerning these course components.
 
 Your score in the course will be determined from these grading components by the
 following (implicit) formula:
@@ -79,7 +78,7 @@ Your *letter grade* is then determined from this score using [the
 scheme described at this
 link](https://math.tufts.edu/resources/grading-schemes).
 
-# Student Resources
+## Student Resources
 
   For a list of *student resources*, please see the *syllabus* section
   of the `Canvas` site for the course.

@@ -1,4 +1,4 @@
--- Time-stamp: <2025-01-02 Thu 17:24 EST - george@valhalla>
+-- Time-stamp: <2025-01-13 Mon 16:17 EST - george@calliope>
 let Dow = < Mon | Tue | Wed | Thu | Fri | Sat | Sun >
 
 let concat = https://prelude.dhall-lang.org/List/concat
@@ -41,26 +41,25 @@ let Task =
       >
 
 let tasks =
-        [ Task.Meeting
-            { description = "Office hours"
-            , dow = Dow.Mon
-            , time = { start = "13:30", end = "14:30" }
-            , location = "JCC 559"
-            }
-        , Task.Meeting
-            { description = "Office hours"
-            , dow = Dow.Wed
-            , time = { start = "13:30", end = "14:30" }
-            , location = "JCC 559"
-            }
-        , Task.Meeting
-            { description = "Office hours"
-            , dow = Dow.Thu
-            , time = { start = "14:30", end = "15:30" }
-            , location = "JCC 559"
-            }
-        ]
-      : List Task
+      [ Task.Meeting
+          { description = "Office hours"
+          , dow = Dow.Mon
+          , time = { start = "13:30", end = "14:30" }
+          , location = "JCC 559"
+          }
+      , Task.Meeting
+          { description = "Office hours"
+          , dow = Dow.Wed
+          , time = { start = "13:30", end = "14:30" }
+          , location = "JCC 559"
+          }
+      , Task.Meeting
+          { description = "Office hours"
+          , dow = Dow.Thu
+          , time = { start = "14:30", end = "15:30" }
+          , location = "JCC 559"
+          }
+      ]
 
 let homework =
       CourseComponent.Assignment
@@ -90,15 +89,39 @@ let lectures =
 
 let midterm1 =
       CourseComponent.Exam
-        { sched = [] : List ScheduleDetails, description = "" }
+        { sched =
+          [ ScheduleDetails.Date
+              { date = "2025-02-19"
+              , time = { start = "9:00", end = "10:15" }
+              , location = "JCC 280"
+              }
+          ]
+        , description = "midterm 1"
+        }
 
 let midterm2 =
       CourseComponent.Exam
-        { sched = [] : List ScheduleDetails, description = "" }
+        { sched =
+          [ ScheduleDetails.Date
+              { date = "2025-03-31"
+              , time = { start = "9:00", end = "10:15" }
+              , location = "JCC 280"
+              }
+          ]
+        , description = "midterm 2"
+        }
 
 let final =
       CourseComponent.Exam
-        { sched = [] : List ScheduleDetails, description = "" }
+        { sched =
+          [ ScheduleDetails.Date
+              { date = "2025-05-09"
+              , time = { start = "8:30", end = "10:30" }
+              , location = "TBA"
+              }
+          ]
+        , description = "final exam"
+        }
 
 in  [ { courseAY = "AY2024-2025"
       , courseSem = "spring"
@@ -110,12 +133,7 @@ in  [ { courseAY = "AY2024-2025"
       , courseDescription = "Abstract Algebra II (Galois Theory)"
       , target =
         { dir = "course-pages", base = "Math146", org = "/home/george/org/" }
-      , courseComponents =
-          concat
-            CourseComponent
-            (   [ [ lectures ], [ homework ], [ midterm1, midterm2, final ] ]
-              : List (List CourseComponent)
-            )
+      , courseComponents = [ lectures, homework, midterm1, midterm2, final ]
       , courseTasks = tasks : List Task
       }
     ]
