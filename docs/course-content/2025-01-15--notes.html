@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Math87-Tufts University - Notes</title>
+        <title>Math87-Tufts University - Notes - Commutative Rings</title>
 	<script>
 	  window.MathJax = {
 	    options: {
@@ -47,8 +47,69 @@
         </header>
 
         <main role="main">
-            <h1>Notes</h1>
-            
+            <h1>Notes - Commutative Rings</h1>
+            <p>See [Stewart, chapter 16] <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> for general results about commutative rings.</p>
+<h1 id="commutative-rings">Commutative rings</h1>
+<p>In the lecture today, we define the notion of a <em>ring</em>:</p>
+<p><strong>Definition</strong> A ring <span class="math inline">\(R\)</span> is an additive abelian group together with
+an operation of multiplication <span class="math inline">\(R \times R \to R\)</span> given by <span class="math inline">\((a,b) \mapsto a \cdot b\)</span> such that the following axioms hold:</p>
+<ul>
+<li>multiplication is <em>associative</em></li>
+<li>multiplication <em>distributes</em> over addition: for every <span class="math inline">\(a,b,c \in R\)</span> we have <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
+<span class="math display">\[a (b+c) = ab + ac\]</span>
+and
+<span class="math display">\[(b+c)a = ba + ca\]</span></li>
+</ul>
+<p>We say that the ring <span class="math inline">\(R\)</span> is <em>commutative</em> if the operation of
+multiplication is commutative; i.e. if <span class="math inline">\(ab = ba\)</span> for all <span class="math inline">\(a,b\in R\)</span>.</p>
+<p>And we say that <span class="math inline">\(R\)</span> has identity if multiplication has an identity,
+i.e. if there is an element <span class="math inline">\(1_R \in R\)</span> such that <span class="math inline">\(a \cdot 1_R = 1_R \cdot a = a\)</span>
+for every <span class="math inline">\(a \in R\)</span>. <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>In the course, we will consider (almost?) exclusively rings which are
+commutative and have identity.</p>
+<p>Here are some examples of commutative rings:</p>
+<ul>
+<li><p><span class="math inline">\(\mathbb{Z}\)</span>, <span class="math inline">\(\mathbb{Q}\)</span>, <span class="math inline">\(\mathbb{R}\)</span>, <span class="math inline">\(\mathbb{C}\)</span></p></li>
+<li><p>if <span class="math inline">\(X\)</span> is a set and if <span class="math inline">\(R\)</span> is a commutative ring, the set <span class="math inline">\(X^R\)</span> of
+all <span class="math inline">\(R\)</span>-valued functions on <span class="math inline">\(X\)</span> can be viewed as a commutative ring
+in a natural way.</p></li>
+</ul>
+<h1 id="polynomial-rings">Polynomial rings</h1>
+<p>If <span class="math inline">\(R\)</span> is a commutative ring, the collection of all polynomials in the
+variable <span class="math inline">\(T\)</span> having coefficients in <span class="math inline">\(R\)</span> is denoted <span class="math inline">\(R[T]\)</span>.</p>
+<p>Notice that the set of <em>monomials</em> <span class="math inline">\(S = \{T^i \mid i \in \mathbb{N}\}\)</span>
+has the following properties:</p>
+<ul>
+<li><p>every element of <span class="math inline">\(R[T]\)</span> is an <span class="math inline">\(R\)</span>-linear combination of elements of
+<span class="math inline">\(S\)</span>. This just amounts to the statement that every polynomial <span class="math inline">\(f(T) \in R[T]\)</span> has the form
+<span class="math display">\[f(T) = \sum_{i=0}^N a_i T^i\]</span>
+for a suitable <span class="math inline">\(N \ge 0\)</span> and suitable coefficients <span class="math inline">\(a_i \in R\)</span>.</p></li>
+<li><p>the elements of <span class="math inline">\(S\)</span> are linearly independent<br />
+i.e. if <span class="math display">\[\sum_{i=0}^N a_i T^i = 0 \quad \text{for} \quad a_i \in
+R,\]</span> then <span class="math inline">\(a_i = 0\)</span> for every <span class="math inline">\(i\)</span>.</p></li>
+</ul>
+<p>Polynomials in <span class="math inline">\(R[T]\)</span> can be added in a natural way. (This is just
+like adding vectors in a vector space).</p>
+<p>And there is a product operation on polynomials, as follows: if <span class="math inline">\(f(T) = \displaystyle \sum_{i=0}^N a_i T^i\)</span> and <span class="math inline">\(g(T) = \displaystyle \sum_{i=0}^M b_i T^i\)</span> then
+<span class="math display">\[f(T) \cdot g(T) = \sum_{i=0}^{N+M} c_i T^i
+\quad \text{where} \quad c_i = \sum_{s+t = i} a_s b_t.\]</span></p>
+<p><strong>Proposition:</strong> <span class="math inline">\(R[T]\)</span> is a commutative ring with identity.</p>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>As noted in the <a href="../course-pages/Math146--course-syllabus.html">course syllabus</a>, <a href="https://tischlibrary.tufts.edu/">Tisch
+library</a> has an <a href="https://tufts.primo.exlibrisgroup.com/permalink/01TUN_INST/1fml38t/cdi_informaworld_taylorfrancisbooks_10_1201_9781003213949_version2">entry for this
+item
+here</a>;
+click to find online access to the text <em>Galois Theory</em>, Ian Stewart. (CRC Press, 4th edition 2022).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>We often just denote multiplication by juxtaposition: i.e. we
+may write <span class="math inline">\(ab\)</span> instead of <span class="math inline">\(a \cdot b\)</span> for <span class="math inline">\(a,b\in R\)</span><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Usually we write <span class="math inline">\(1\)</span> for <span class="math inline">\(1_R\)</span>. The idea is that <span class="math inline">\(1_R\)</span> is the
+multiplicative identity of <span class="math inline">\(R\)</span>. For example, the identity matrix
+<span class="math inline">\(\begin{bmatrix} 1 &amp; 0 \\ 0 &amp; 1 \end{bmatrix}\)</span> is the multiplicative
+identity <span class="math inline">\(1_R\)</span> of the matrix ring <span class="math inline">\(R=\operatorname{Mat}_2(\mathbb{R})\)</span>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
         </main>
 
         <footer>

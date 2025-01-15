@@ -29,11 +29,16 @@ slides_pdf=$(slides:.md=-slides.pdf)
 problems=$(wildcard course-assignments/*.md)
 problems_pdf=$(problems:.md=.pdf)
 
-all: pages notebooks problems slides
+lectures=$(wildcard course-content/*.md)
+lectures_pdf=$(lectures:.md=.pdf)
+
+all: pages notebooks problems slides lectures
 
 pages: $(pages_pdf)
 problems: $(problems_pdf)
+lectures: $(lectures_pdf)
 slides: $(slides_pdf)
+
 
 notebooks: $(notebooks_pdf)
 
