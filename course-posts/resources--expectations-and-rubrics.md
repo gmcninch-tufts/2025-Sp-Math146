@@ -23,7 +23,6 @@ date: 2025-01-02
   
   - explanation and exposition
 
-    Have assumptions and hypotheses been explained? This includes
-    mathematical hypotheses, as well as modeling choices and
-    assumptions.
+	Have the assumptions and hypotheses been explained?  Does the
+	solution efficiently explain the steps leading to the conclusion?
 
