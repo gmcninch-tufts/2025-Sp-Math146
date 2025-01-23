@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Math87-Tufts University - Notes - Commutative Rings  
+(2025-01-22)
+</title>
+	<script>
+	  window.MathJax = {
+	    options: {
+	      ignoreHtmlClass: 'tex2jax_ignore',
+	      processHtmlClass: 'tex2jax_process'
+	    },
+	    tex: {
+	      autoload: {
+		color: [],
+		colorv2: ['color']
+	      },
+	      packages: {'[+]': ['noerrors']}
+	    },
+	    loader: {
+	      load: ['input/asciimath', '[tex]/noerrors']
+	    }
+	  };
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+        <link rel="stylesheet" href="../css/default.css" />
+	<link rel="stylesheet" href="../css/haddock.css" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" type="text/css" rel="stylesheet" media="screen" />
+	<link href="https://fonts.googleapis.com/css?family=Arimo:400,700" type="text/css" rel="stylesheet" media="screen" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" type="text/css" rel="stylesheet" media="screen" />
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" type="text/css" rel="stylesheet" media="screen" />
+	<link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" type="text/css" rel="stylesheet" media="screen" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />			
+    </head>
+    <body>
+        <header>
+          <div class="logo">
+            <a href="../">
+	      Math146 - Spring 2025 - Tufts Univ</a>
+          </div>
+          <nav>
+            <a href="../about.html">About</a>
+	    <a href="../course-pages/Math146--course-info.html">Info</a>	    	    
+            <a href="../archive.html">Archive</a>
+          </nav>
+        </header>
+
+        <main role="main">
+            <h1>Notes - Commutative Rings  
+(2025-01-22)
+</h1>
+            <h1 id="ring-homomorphisms">Ring homomorphisms</h1>
+<p>If <span class="math inline">\(R\)</span> and <span class="math inline">\(S\)</span> are rings, a function <span class="math inline">\(\phi:R \to S\)</span> is called a <em>ring homomorphism</em>
+provided that</p>
+<ol type="a">
+<li><span class="math inline">\(\phi\)</span> is a homomorphism of <em>additive groups</em>, and</li>
+<li><span class="math inline">\(\phi\)</span> preserves multiplication; i.e. for all <span class="math inline">\(x,y \in R\)</span> we have <span class="math inline">\(\phi(xy) = \phi(x) \phi(y)\)</span>.</li>
+<li><span class="math inline">\(\phi(1_R) = 1_S\)</span>.</li>
+</ol>
+<p>The <em>kernel</em> of the ring homomorphism <span class="math inline">\(\phi:R \to S\)</span> is given by
+<span class="math display">\[\ker \phi = \phi^{-1}(0) = \{x \in R \mid \phi(x) = 0\};\]</span> thus
+<span class="math inline">\(\ker \phi\)</span> is just the kernel of <span class="math inline">\(\phi\)</span> viewed as a homomorphism of
+additive groups.</p>
+<p>Properties of the kernel:</p>
+<ol type="a">
+<li><span class="math inline">\(\ker \phi\)</span> is an additive subgroup of <span class="math inline">\(R\)</span></li>
+<li>for every <span class="math inline">\(r \in R\)</span> and every <span class="math inline">\(x \in \ker \phi\)</span> we have <span class="math inline">\(rx \in \ker \phi\)</span>.</li>
+</ol>
+<h1 id="ideals-of-a-ring">Ideals of a ring</h1>
+<p>For simplicity suppose that the ring <span class="math inline">\(R\)</span> (and <span class="math inline">\(S\)</span>) are <em>commutative</em>
+rings.</p>
+<p>A subset <span class="math inline">\(I\)</span> of <span class="math inline">\(R\)</span> is an <em>ideal</em> provided that</p>
+<ol type="a">
+<li><span class="math inline">\(I\)</span> is an additive subgroup of <span class="math inline">\(R\)</span>, and</li>
+<li>for every <span class="math inline">\(r \in R\)</span> and every <span class="math inline">\(x \in I\)</span> we have <span class="math inline">\(rx \in I\)</span>.</li>
+</ol>
+<p>We sometimes describe condition b. by saying that “<span class="math inline">\(I\)</span> is closed under
+multiplication by every element of <span class="math inline">\(R\)</span>”.</p>
+<p>The proof of the following is immediate from definitions:</p>
+<dl>
+<dt><strong>Proposition</strong></dt>
+<dd>
+If <span class="math inline">\(\phi:R \to S\)</span> is a ring homomorphism , then <span class="math inline">\(\ker \phi\)</span> is an
+ideal of <span class="math inline">\(R\)</span>.
+</dd>
+</dl>
+<h1 id="quotient-rings">Quotient rings</h1>
+<p>Let <span class="math inline">\(R\)</span> be a commutative ring and <span class="math inline">\(I\)</span> an ideal of <span class="math inline">\(R\)</span>.</p>
+<p>Since <span class="math inline">\(I\)</span> is a subgroup of the (abelian) additive group <span class="math inline">\(R\)</span>, we may
+consider the quotient group <span class="math inline">\(R/I\)</span>. Its elements are (additive) cosets
+<span class="math inline">\(a + I\)</span> for <span class="math inline">\(a \in R\)</span>.</p>
+<p>It follows from the definition of cosets that the <span class="math inline">\(a+I = b+I\)</span> if and
+only if <span class="math inline">\(b - a \in I\)</span>.</p>
+<p>The additive group can be made into a commutative ring by defining the
+multiplication as follows:</p>
+<p>For <span class="math inline">\(a + I, b+I \in R/I\)</span> (so that <span class="math inline">\(a,b\in R\)</span>), the product is given
+by <span class="math display">\[(a+I)(b+I) = ab + I.\]</span></p>
+<p>In order to make this definition, one must confirm that this rule is well-defined. Namely,
+if we have equalities <span class="math inline">\(a+I = a' + I\)</span> and <span class="math inline">\(b+I = b'+I\)</span>, we need to know that
+<span class="math display">\[(a+I)(b+I) = (a'+I)(b'+I).\]</span></p>
+<p>Applying the definition, we see that we must confirm that
+<span class="math display">\[ab = I = a'b' + I.\]</span>
+For this, we need to argue that <span class="math inline">\(a'b' - ab \in I\)</span>.</p>
+<p>Since <span class="math inline">\(a+I = a' +I\)</span>, we know that <span class="math inline">\(a' - a = x \in I\)</span> and since
+<span class="math inline">\(b+I=b'+I\)</span> we know that <span class="math inline">\(b' - b = y \in I\)</span>.</p>
+<p>Thus <span class="math inline">\(a' = a + x\)</span> and <span class="math inline">\(b' = b + y\)</span>. Now we see that <span class="math display">\[a'b' =
+(a+x)(b+y) = ab + ay + xb + xy\]</span> Since <span class="math inline">\(I\)</span> is an ideal, we see that
+<span class="math inline">\(ay,xb,xy \in I\)</span> henc <span class="math inline">\(ay + xb + xy \in I\)</span>. Now conclude that <span class="math inline">\(a'b' + I = ab + I\)</span> as required.</p>
+<p>It is now straightforward to confirm that the ring axioms hold for the
+set <span class="math inline">\(R/I\)</span> with these operations.</p>
+<dl>
+<dt><strong>Proposition</strong></dt>
+<dd>
+If <span class="math inline">\(I\)</span> is an ideal of the commutative ring <span class="math inline">\(R\)</span>, then <span class="math inline">\(R/I\)</span> is a
+commutative ring with the addition and multiplication just
+described.
+</dd>
+</dl>
+<h1 id="principal-ideals">Principal ideals</h1>
+<p>If <span class="math inline">\(R\)</span> is a commutative ring and <span class="math inline">\(a \in R\)</span>, the <em>principal ideal generated by <span class="math inline">\(a\)</span></em> – written
+<span class="math inline">\(Ra\)</span> or <span class="math inline">\(\langle a \rangle\)</span> – is defined by
+<span class="math display">\[Ra  = \langle a \rangle = \{ ra \mid r \in R\}.\]</span></p>
+<dl>
+<dt><strong>Proposition</strong></dt>
+<dd>
+For <span class="math inline">\(a \in R\)</span>, <span class="math inline">\(Ra\)</span> is an <em>ideal</em> of <span class="math inline">\(R\)</span>.
+</dd>
+<dt><strong>Example</strong></dt>
+<dd>
+<p>Let <span class="math inline">\(n \in \mathbb{Z}_{&gt;0}\)</span> and consider the principal ideal
+<span class="math inline">\(n\mathbb{Z}\)</span> of the ring <span class="math inline">\(\mathbb{Z}\)</span> generated by <span class="math inline">\(n \in \mathbb{Z}\)</span>.</p>
+<p>As an additive group, <span class="math inline">\(n\mathbb{Z}\)</span> is the infinite cyclic group generated by <span class="math inline">\(n\)</span>.</p>
+<p>The quotient ring <span class="math inline">\(\mathbb{Z}/n\mathbb{Z}\)</span> is the finite
+commutative ring with <span class="math inline">\(n\)</span> elements; these elements are precisely
+the <em>congruence classes</em> of integers modulo <span class="math inline">\(n\)</span>.</p>
+</dd>
+</dl>
+<h1 id="isomorphism-theorem">Isomorphism Theorem</h1>
+<dl>
+<dt><strong>Theorem</strong></dt>
+<dd>
+Let <span class="math inline">\(R,S\)</span> be commutative rings with identity and let <span class="math inline">\(\phi:R \to S\)</span> be a ring homomorphism. Assume that <span class="math inline">\(\phi\)</span> is <em>surjective</em>
+(i.e. <em>onto</em>). Then <span class="math inline">\(\phi\)</span> determines an isomorphism
+<span class="math inline">\(\overline{\phi}:R/I \to S\)</span> where <span class="math inline">\(I = \ker \phi\)</span>, where <span class="math inline">\(\overline{\phi}\)</span> is determined by the rule
+<span class="math display">\[\overline{\phi}(a+I) = \phi(a) \quad \text{for $a \in R$}.\]</span>
+</dd>
+</dl>
+<p><strong>Outline of proof</strong></p>
+<p>First, you must confirm that <span class="math inline">\(\overline{\phi}\)</span> is <em>well-defined</em>; i.e. that if <span class="math inline">\(a + I = a' + I\)</span> then
+<span class="math inline">\(\overline{\phi}(a+I) = \overline{\phi}(a' + I).\)</span></p>
+<p>Next, you must confirm that <span class="math inline">\(\overline{\phi}\)</span> is a ring homomorphism
+(this is immediate from the definition of ring operations on <span class="math inline">\(R/I\)</span>).</p>
+<p>Finally, you must confirm that <span class="math inline">\(\ker \overline{\phi} = \{0\}\)</span>, where
+here <span class="math inline">\(0\)</span> refers to the additive identity of the quotient ring
+<span class="math inline">\(R/I\)</span>. This additive identity is of course the trivial coset <span class="math inline">\(I = 0 + I \in R/I\)</span>.</p>
+<h1 id="polynomial-ring-example">Polynomial ring example</h1>
+<p>If <span class="math inline">\(F\)</span> is a field and <span class="math inline">\(a \in F\)</span>, consider the mapping <span class="math display">\[\Phi:F[T] \to
+F\]</span> given by <span class="math inline">\(\Phi(f(T)) = f(a)\)</span>. Namely, applying <span class="math inline">\(\Phi\)</span> to a
+polynomial <span class="math inline">\(f(T)\)</span> results in the value <span class="math inline">\(f(a)\)</span> of <span class="math inline">\(f(T)\)</span> at <span class="math inline">\(a\)</span>.</p>
+<p>The definition of multiplication in <span class="math inline">\(F[T]\)</span> guarantees that <span class="math inline">\(\Phi\)</span> is a
+ring homomorphism.</p>
+        </main>
+
+        <footer>
+	  <nav>
+	    <a href="http://www.tufts.edu">
+	      <i class="fas fa-chalkboard"></i>
+	      Tufts
+	    </a>	    
+	    <a href="http://math.tufts.edu">
+	      <i class="fas fa-chalkboard-teacher"></i>
+	      Tufts Math
+	    </a>
+	    <a href="https://gmcninch.math.tufts.edu">
+	      <i class="fas fa-coffee"></i>
+	      G McNinch
+	    </a>
+	    <a href="https://github.com/gmcninch-tufts">
+	      <i class="fab fa-github"></i>
+	      GitHub
+	    </a>	    
+	  </nav>
+        </footer>
+    </body>
+</html>
