@@ -6,7 +6,7 @@ BEAMER_META=--metadata-file=build-assets/beamer-metadata.yaml
 PD=pandoc --standalone --from markdown -V linkcolor:red --citeproc
 PDJ=pandoc 
 
-PFP=--lua-filter build-assets/prefix-path.lua -MpathToProjectRoot=/home/george/Classes/2024-Sp-Math087
+PFP=--lua-filter build-assets/prefix-path.lua -MpathToProjectRoot=/home/george/Classes/2024-Sp-Math146
 PFC=--lua-filter build-assets/color-sols.lua
 
 CMD=/home/george/.local/bin/course report
@@ -22,8 +22,8 @@ pages_pdf=$(pages:.md=.pdf)
 notebooks=$(wildcard course-content/*.ipynb)
 notebooks_pdf=$(notebooks:.ipynb=.pdf)
 
-slides=$(wildcard course-content/*.md)
-slides_pdf=$(slides:.md=-slides.pdf)
+# slides=$(wildcard course-content/*.md)
+# slides_pdf=$(slides:.md=-slides.pdf)
 
 
 problems=$(wildcard course-assignments/*.md)
@@ -32,12 +32,12 @@ problems_pdf=$(problems:.md=.pdf)
 lectures=$(wildcard course-content/*.md)
 lectures_pdf=$(lectures:.md=.pdf)
 
-all: pages notebooks problems slides lectures
+all: pages notebooks problems lectures # slides
 
 pages: $(pages_pdf)
 problems: $(problems_pdf)
 lectures: $(lectures_pdf)
-slides: $(slides_pdf)
+#slides: $(slides_pdf)
 
 
 notebooks: $(notebooks_pdf)
@@ -48,8 +48,8 @@ notebooks: $(notebooks_pdf)
 #%.md: %.ipynb
 #	$(PDJ) $< --extract-media=course-assets/images -o $@
 
-%-slides.pdf: %.md
-	$(PD) $(BEAMER_META) $< --pdf-engine=xelatex -t beamer --incremental --resource-path=$(RP) -o $@
+#%-slides.pdf: %.md
+#	$(PD) $(BEAMER_META) $< --pdf-engine=xelatex -t beamer --incremental --resource-path=$(RP) -o $@
 
 
 %.pdf: %.ipynb

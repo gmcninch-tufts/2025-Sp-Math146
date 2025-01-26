@@ -1,17 +1,17 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.36.0.
+-- This file has been generated from package.yaml by hpack version 0.37.0.
 --
 -- see: https://github.com/sol/hpack
 
 name:           math146-2025Sp-site
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/gmcninch/personal#readme>
-homepage:       https://github.com/gmcninch-tufts/2024-Sp-Math087#readme
-bug-reports:    https://github.com/gmcninch-tufts/2024-Sp-Math087/issues
+homepage:       https://github.com/gmcninch-tufts/2025-Sp-Math146#readme
+bug-reports:    https://github.com/gmcninch-tufts/2025-Sp-Math146/issues
 author:         George McNinch
 maintainer:     george.mcninch@tufts.edu
-copyright:      2024 George McNinch
+copyright:      2025 George McNinch
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -21,7 +21,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/gmcninch-tufts/2024-Sp-Math087
+  location: https://github.com/gmcninch-tufts/2025-Sp-Math146
 
 executable math146-2025Sp-site
   main-is: site.hs
