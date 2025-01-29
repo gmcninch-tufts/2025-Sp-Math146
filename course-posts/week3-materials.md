@@ -14,6 +14,9 @@ date    : 2025-01-27
 
 - [Problem set 2](/course-assignments/PS2--polynomials.pdf) due 2025-01-31  
 
+  Note: I expected to talk about irreducible elements in a PID but
+  didn't quite get there. So I've removed problem 2 from the
+  assignment; it'll probably re-appear next week.
 
 
 
