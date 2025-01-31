@@ -40,9 +40,10 @@ Here are details on these course components:
 - *weekly problem sets*, 
 
   Since the class meets on Mondays and Wednesdays, problem sets will
-  be collected weekly on *Fridays* (some weeks, a midterm report --
-  see below -- will instead by collected on Friday). You can find the
-  planned collection schedule on the course website.
+  be collected weekly on ~~*Fridays*~~ *Sundays* (some weeks, a
+  midterm report -- see below -- will instead by collected on
+  ~~Friday~~ Sunday). You can find the planned collection schedule on
+  the course website.
 
   A total of 10 problem sets will be collected.
 
