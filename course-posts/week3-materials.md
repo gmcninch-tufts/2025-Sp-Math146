@@ -4,7 +4,8 @@ date    : 2025-01-27
 ---
 
 - [lecture notes](/course-content/lecture-notes.pdf)  
-  §3 was Monday and §4 was Wednesday
+  Monday was §3 Polynomials over a field and the division algorithm
+  Wednesday was §4 Ideals of the polynomial rings
 
   There is a bit of revisionism in the notes. During the lecture on
   Wednesday I noticed that I got something a bit out of order. I
