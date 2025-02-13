@@ -10,7 +10,8 @@ date    : 2025-02-17
   [Here is some review material](/course-content/exam1-review.pdf) for the exam.
 
 
-- the fourth problem set is now due *after* the exam.
+- the fourth problem set is now due the Sunday *after* the exam
+  (rather than before the exam).
 
   [Problem set 4](/course-assignments/PS4--extensions.pdf) due
   2025-02-23 
