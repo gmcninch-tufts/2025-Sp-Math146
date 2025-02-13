@@ -3,7 +3,7 @@ title   : Week 6
 date    : 2025-02-17
 ---
 
-- Monday Feb 127 is a holiday; no class.
+- Monday Feb 17 is a holiday; no class.
 
 - Miderm 1 will be Wednesday Feb 19.
 
