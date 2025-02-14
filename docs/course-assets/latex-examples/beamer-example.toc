@@ -1,3 +1,0 @@
-\babel@toc {english}{}\relax 
-\beamer@sectionintoc {1}{Beamer warmup}{2}{0}{1}
-\beamer@sectionintoc {2}{Graphs}{8}{0}{2}
