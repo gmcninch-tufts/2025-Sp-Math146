@@ -13,6 +13,9 @@ date    : 2025-02-17
 
   Note: I had originally omitted part of the statement of problem V.6 (I hadn't told you what the symbol $\gamma$ stood for). I've updated the PDF.
 
+  Another note: Upon re-reading, I see that I left out the second half
+  of the proof in solving V.I.a (I had forgotten to include the
+  argument that $\phi$ is surjective). I've updated the text.
 
 - the fourth problem set is now due the Sunday *after* the exam
   (rather than before the exam).
