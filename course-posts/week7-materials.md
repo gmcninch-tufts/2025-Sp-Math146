@@ -1,6 +1,6 @@
 ---
 title   : Week 7
-date    : 2025-03-24
+date    : 2025-02-24
 ---
 
 - I've updated the [lecture notes](/course-content/lecture-notes.pdf) with material for this week.
