@@ -71,10 +71,10 @@ title: Math146 - Abstract Algebra II (Galois Theory) - AY2024-2025 spring
   | 03/26 | Wed | Lecture    | 18              | 11   | Separable field extensions                                     |
   | 03/27 | Thu | Meeting    | Office hours 9  | 11   | **14:30-15:30 JCC 559                                          |
   | 03/30 | Sun | Assignment |                 | 11   |                                                                |
-  | 03/31 | Mon | Lecture    | 19              | 12   | The Galois Correspondence                                      |
+  | 03/31 | Mon | Lecture    | 19              | 12   | midterm 2                                                      |
   | 03/31 | Mon | Exam       |                 | 12   | **midterm 2**                                                  |
   | 04/02 | Wed | Meeting    | Office hours 10 | 12   | **13:30-14:30 JCC 559                                          |
-  | 04/02 | Wed | Lecture    | 20              | 12   | midterm 2                                                      |
+  | 04/02 | Wed | Lecture    | 20              | 12   | The Galois Correspondence                                      |
   | 04/02 | Wed | Tufts      |                 | 12   | **Academic Date:** *Last day to withdraw from a course with W* |
   | 04/02 | Wed | Tufts      |                 | 12   | **Academic Date:** *Last day to select Pass/Fail Option*       |
   | 04/03 | Thu | Meeting    | Office hours 10 | 12   | **14:30-15:30 JCC 559                                          |
