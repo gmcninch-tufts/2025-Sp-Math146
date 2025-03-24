@@ -40,9 +40,9 @@ title: Math146 - Abstract Algebra II (Galois Theory) - AY2024-2025 spring
   | 03/23 | Sun | Tufts   |     | 10   | **No classes:** *Spring Break*                                 |
   | 03/24 | Mon | Lecture | 17  | 11   | Normal field extensions                                        |
   | 03/26 | Wed | Lecture | 18  | 11   | Separable field extensions                                     |
-  | 03/31 | Mon | Lecture | 19  | 12   | The Galois Correspondence                                      |
+  | 03/31 | Mon | Lecture | 19  | 12   | midterm 2                                                      |
   | 03/31 | Mon | Exam    |     | 12   | **midterm 2**                                                  |
-  | 04/02 | Wed | Lecture | 20  | 12   | midterm 2                                                      |
+  | 04/02 | Wed | Lecture | 20  | 12   | The Galois Correspondence                                      |
   | 04/02 | Wed | Tufts   |     | 12   | **Academic Date:** *Last day to withdraw from a course with W* |
   | 04/02 | Wed | Tufts   |     | 12   | **Academic Date:** *Last day to select Pass/Fail Option*       |
   | 04/07 | Mon | Lecture | 21  | 13   | Linear independence of monomorphisms                           |
