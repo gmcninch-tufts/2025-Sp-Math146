@@ -5,6 +5,6 @@ date    : 2025-03-24
 
 - Midterm 2 is next Monday, [2025-03-31]. 
 
-  Here is some [exam review material](/course-content/exam2-review.pdf)
+  Here is some [exam 2 review material](/course-content/exam2-review.pdf)
   
-  Solutions will be posted by Friday.
+  And here are the [solutions to exam 2 review material](/course-content/exam2-review-solutions.pdf)
