@@ -3,7 +3,7 @@ title   : Week 5
 date    : 2025-02-10
 ---
 
-- [lecture notes](/course-content/lecture-notes.pdf)  
+- [lecture notes](/course-content/comm-rings-fields-and-galois-theory.pdf)  
   
   - Monday: §7.3 and 7.4 Eisenstein  §8 Linear algebra
   

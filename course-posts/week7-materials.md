@@ -3,7 +3,7 @@ title   : Week 7
 date    : 2025-02-24
 ---
 
-- I've updated the [lecture notes](/course-content/lecture-notes.pdf) with material for this week.
+- I've updated the [lecture notes](/course-content/comm-rings-fields-and-galois-theory.pdf) with material for this week.
 
   - I'll finish discussing the material in §9 before moving on to new stuff.
 

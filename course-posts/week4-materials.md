@@ -3,7 +3,7 @@ title   : Week 4
 date    : 2025-02-03
 ---
 
-- [lecture notes](/course-content/lecture-notes.pdf)  
+- [lecture notes](/course-content/comm-rings-fields-and-galois-theory.pdf)  
   
   - Monday: §5: Prime elements and unique factorization
   

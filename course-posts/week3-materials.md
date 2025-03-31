@@ -3,7 +3,7 @@ title   : Week 3
 date    : 2025-01-27
 ---
 
-- [lecture notes](/course-content/lecture-notes.pdf)  
+- [lecture notes](/course-content/comm-rings-fields-and-galois-theory.pdf)  
   Monday was §3 Polynomials over a field and the division algorithm
   Wednesday was §4 Ideals of the polynomial rings
 

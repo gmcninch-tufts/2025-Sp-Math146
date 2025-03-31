@@ -3,7 +3,7 @@ title   : Week 9
 date    : 2025-03-09
 ---
 
-- this week, we'll mainly discuss *finite fields*, §12 in the [lecture notes](/course-content/lecture-notes.pdf)
+- this week, we'll mainly discuss *finite fields*, §12 in the [lecture notes](/course-content/comm-rings-fields-and-galois-theory.pdf)
 
 - homework assignment this week mainly concerns *finite fields* §12
 
