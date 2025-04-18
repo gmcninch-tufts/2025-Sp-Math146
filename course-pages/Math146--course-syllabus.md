@@ -54,9 +54,9 @@ Here are details on these course components:
 
 
 
-- 2 take-home *midterms*
+- 2 ~~take-home~~ *midterms*
 
-- 1 take-home *final exam*
+- 1 ~~take-home~~ *final exam* Friday May 9, 8:30-10:30
 
 Please refer to the course website for details on expectations
 concerning these course components.
